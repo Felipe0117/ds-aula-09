@@ -1,0 +1,121 @@
+body{
+    width: 100%;
+    background-color: rgb(1, 100, 167);
+}
+.inicio{
+    max-width: 50%;
+    margin: 0 auto;
+    margin-top: 6%; 
+}
+
+.inicio {
+    display: grid;
+    grid-template-columns: 0.2fr 3fr;
+    column-gap: 0%;
+    background-color: #ffffff;  
+    overflow: hidden; 
+    box-shadow: 0 0.06vh 0.7vh rgba(37, 37, 37, 0.8); 
+}
+
+.inicio img {
+    width: 90%; 
+    height: auto; 
+}
+
+.inicio div {
+    padding: 5%; 
+}
+
+.meio{
+    max-width: 80%;
+    margin: 0 auto;
+    margin-top: 6%; 
+}
+
+.meio {
+    display: grid;
+    grid-template-columns: 2fr 3fr;
+    column-gap: 5%;
+    background-color: #ffffff;  
+    overflow: hidden; 
+    box-shadow: 0 0.06vh 0.7vh rgba(37, 37, 37, 0.8);
+    border-radius: 1vh; 
+}
+
+.meio img {
+    width: 100%; 
+    height: auto; 
+}
+
+main{
+    display: grid;
+    background-color: rgb(209, 127, 127);
+}
+section{
+    overflow: hidden;
+    width: 100%;
+}
+section img{
+    width: 100%;
+    
+}
+h1{
+    display: grid;
+    justify-content: space-around;
+    color: orangered;
+
+}
+.produtos{
+    width: 27vh;
+    height: 27vh;
+    border-radius: 3vh;
+}
+.pokemon div h3{
+    font-family: Arial, sans-serif;
+    color: orangered;
+    display: grid;
+    justify-content: space-around;
+    margin: 0;
+}
+
+.pokemon div h4{
+    font-family: Arial, sans-serif;
+    display: grid;
+    justify-content: space-around;
+    margin: 0;
+}
+.pokemon{
+    display: grid;
+    grid-template-columns: 30vh 30vh;
+    gap: 1vh;
+    justify-content: center;
+    height: auto;
+}
+.pokemon .pokemon-item{
+    display: grid;
+    grid-template-columns: 27vh;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    text-align: center;
+    padding: 2vh;
+    background-color: transparent;
+    transition: all 300ms ease-in-out; 
+    border: 0.2vh solid rgb(212, 212, 212);
+    border-radius: 4vh;
+    margin-block: 5vh;
+
+}
+
+.tipo{
+    color: blue;
+}
+
+.texto{
+    color: black;
+
+}
+
+body{
+    text-align: center;
+}
